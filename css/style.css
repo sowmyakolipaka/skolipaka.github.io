@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #7CFE;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.background {
+    width: 100%;
+    height: 745px;
+    background-image: url(../images/goran-ivos-iOykDIkZLQw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: auto;
+}
+
+.nav {
+    width: 350px;
+    height: auto;
+    background-color: dimgray;
+    position: absolute;
+    top: 20%;
+    left: 0;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    float: left;
+    background-color: black;
+    color: white;
+    height: 90px;
+    margin: 7px 3px;
+
+}
+
+a.active {
+    background-color: white;
+    color: brown;
+}
